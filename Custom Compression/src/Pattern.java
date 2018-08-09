@@ -10,6 +10,10 @@ public Pattern(String ss){
 	count = 0;
 }
 
+public String getPattern(){
+	return s;
+}
+
 public void incrementCount(){
 	count++;
 }
